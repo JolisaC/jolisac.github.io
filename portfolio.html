@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JC SITE</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="jctheme.css" />
+  <link rel="stylesheet" href="css/themes/jctheme.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script> 
+	$(function(){
+	$("[data-role='navbar']").navbar();
+	$("[data-role='header'], [data-role='footer']").toolbar();
+});
+	</script>
+
+<style> 
+img{
+	max-width: 100%;
+}
+</style>
+
+</head>
+<body>
+
+<div data-role="page">
+
+	<div data-role="header" data-theme="a">
+		<h1>PORTFOLIO</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+
+<div data-role="collapsible">
+			<h3>Graphics</h3>
+			<p>Graphic Design</p>
+			<img src="http://www.2finch.com/wp-content/uploads/2015/11/GraphicDesign.jpg" width="100%">
+			<div class="ui-grid-a">
+			<div class="ui-block-a"><img src="http://img14.deviantart.net/b2cb/i/2011/068/6/a/press_ad_by_nasirali-d3b8wvg.jpg" height="400px"></div>
+			<div class="ui-block-B"><img src="http://files1.coloribus.com/files/adsarchive/part_1501/15010205/file/advertising-agency-tater-tot-small-59503.jpg" height="400px"></div>
+		</div>
+
+		</div>
+
+		
+	<div data-role="collapsible">
+			<h3>Photos</h3>
+			<p>Photography</p>
+
+			<a href="#popup1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11417362_943806298994636_669296773_n.jpg"></a>
+
+			<div data-role="popup" id="popup1" data-overlay-theme="b" data-theme="b" data-corners="false"><img src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11417362_943806298994636_669296773_n.jpg" height="200px"></div>
+
+			<img src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11378640_1605923836349622_1184067755_n.jpg" height="200px">
+			<img src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s320x320/e15/11378017_1666738806891577_1600399463_n.jpg" height="200px">
+			<img src="https://scontent.cdninstagram.com/hphotos-xfp1/t51.2885-15/s320x320/e35/1941038_1668970026650405_1330058712_n.jpg" height="200px">
+		</div>	
+
+	<div data-role="collapsible">
+			<h3>Motion</h3>
+			<p>Video production</p>
+			<iframe width="360" height="203" src="https://www.youtube.com/embed/Wjrhg7LTq7E" frameborder="0" allowfullscreen></iframe>
+			<iframe width="360" height="203" src="https://www.youtube.com/embed/PYIrvE6zWs8" frameborder="0" allowfullscreen></iframe>
+		</div>		
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<div data-role="footer" data-position="fixed" data-theme="a">
+	<div data-role="navbar">
+<ul>
+    <li><a data-icon="home" href="index.html">Home</a></li>
+    <li><a data-icon="grid" href="portfolio.html">Portfolio</a></li>
+    <li><a data-icon="phone" href="contact.html">Contact</a></li>
+  
+</ul>
+	</div>
+	</div><!-- /footer -->
+
+</body>
+</html>

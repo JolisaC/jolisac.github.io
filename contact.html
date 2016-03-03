@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JC SITE</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="jctheme.css" />
+  <link rel="stylesheet" href="css/themes/jctheme.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script> 
+	$(function(){
+	$("[data-role='navbar']").navbar();
+	$("[data-role='header'], [data-role='footer']").toolbar();
+});
+	</script>
+</head>
+<body>
+
+<div data-role="page">
+
+	<div data-role="header" data-theme="a">
+		<h1>Contact</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<ul data-role="listview" data-inset="true">
+	<li data-icon="home"><a href="index.html" data-transition="flow">Home</a></li>		
+    <li data-icon="grid"><a href="portfolio.html" data-transition="flow">Portfolio</a></li>
+    <li data-icon="phone" ><a href="contact.html" data-transition="flow">Contact</a></li>
+  
+</ul>
+<h2>Please contact us if you have any questions.</h2>
+		<form>
+			<label for="name">Your Name:</label>
+			<input type="text" id="name">
+			<label for="email">Email:</label>
+			<input type="text" id="email">
+			<label for="message">Message:</label>
+			<textarea cols="60" rows="10" name="message" id="textarea"></textarea>
+			<input type="submit" value="Send">
+		</form>
+
+		Follow me on social media:
+		Instagram: @dreamloudcreations Twitter: @blueyourheart
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<div data-role="footer" data-position="fixed" data-theme="a">
+	<div data-role="navbar">
+<ul>
+    <li><a data-icon="home" href="index.html">Home</a></li>
+    <li><a data-icon="grid" href="portfolio.html">Portfolio</a></li>
+    <li><a data-icon="phone" href="contact.html">Contact</a></li>
+  
+</ul>
+	</div>
+	</div><!-- /footer -->
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JC SITE</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="jctheme.css" />
+  <link rel="stylesheet" href="css/themes/jctheme.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.structure.min.css" />
+
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script> 
+	$(function(){
+	$("[data-role='navbar']").navbar();
+	$("[data-role='header'], [data-role='footer']").toolbar();
+});
+	</script>
+</head>
+<body>
+
+<div data-role="page" data-theme="a">
+
+	<div data-role="header">
+		<h1>Jolisa Clark</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<ul data-role="listview" data-inset="true">
+	<li data-icon="home"><a href="index.html" data-transition="flow">Home</a></li>		
+    <li data-icon="grid"><a href="portfolio.html" data-transition="flow">Portfolio</a></li>
+    <li data-icon="phone" ><a href="contact.html" data-transition="flow">Contact</a></li>
+  
+</ul>
+		<img src="images/ss3216.jpg" width="350px" height="350px">
+		<h2><p>About Me</p></h2>
+		<p>My name is Jolisa Clark. I'm a graphic designer from Miami, FL. Currently I attend Miami International University of Art & Design. I love creating art whether it's graphics, photos, film or editing I can't see myself living happily without these things. Art is a form of expression through my art it's easy for me to express myself in different ways.</p>
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<div data-role="footer" data-position="fixed" data-theme="a">
+	<div data-role="navbar">
+<ul>
+    <li><a data-icon="home" href="index.html">Home</a></li>
+    <li><a data-icon="grid" href="portfolio.html">Portfolio</a></li>
+    <li><a data-icon="phone" href="contact.html">Contact</a></li>
+  
+</ul>
+	</div>
+	</div><!-- /footer -->
+
+</body>
+</html>
